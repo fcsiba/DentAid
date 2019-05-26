@@ -30,3 +30,8 @@ The classification model built using Mask R-CNN to help with instance teeth segm
 #### Instance Segmentation: Input image to the left, segmented output to the right
 ![alt text](https://serving.photos.photobox.com/448602979049fa36b08d7f775b8025712a9083aac96bb19247c1d4c1ee0054369292aa3f.jpg)
 
+#### Masked output image
+![alt text](https://i.ibb.co/mHL2fbb/1.png)
+
+#### Individual segmented tooth
+![alt text](https://i.ibb.co/PCpfb5Y/1.png)
