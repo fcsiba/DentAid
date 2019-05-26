@@ -27,3 +27,5 @@ The client side version of the application is maintained here. Further info can 
 
 The classification model built using Mask R-CNN to help with instance teeth segmentation and classification is maintained here. Further info can be found on the following branch of this repository here: [Mask R-CNN](https://github.com/fcsiba/DentAid/tree/master/Mask_RCNN)
 
+![alt text](https://serving.photos.photobox.com/448602979049fa36b08d7f775b8025712a9083aac96bb19247c1d4c1ee0054369292aa3f.jpg)
+
