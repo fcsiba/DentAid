@@ -30,11 +30,6 @@ The classification model built using Mask R-CNN to help with instance teeth segm
 #### Instance Segmentation: Input image to the left, segmented output to the right
 ![alt text](https://serving.photos.photobox.com/448602979049fa36b08d7f775b8025712a9083aac96bb19247c1d4c1ee0054369292aa3f.jpg)
 
-# Mask R-CNN for Object Detection and Segmentation
-
-This is an implementation of [Mask R-CNN](https://arxiv.org/abs/1703.06870) on Python 3, Keras, and TensorFlow. The model generates bounding boxes and segmentation masks for each instance of an object in the image. It's based on Feature Pyramid Network (FPN) and a ResNet101 backbone.
-
-![alt text](https://serving.photos.photobox.com/448602979049fa36b08d7f775b8025712a9083aac96bb19247c1d4c1ee0054369292aa3f.jpg)
 
 The repository includes:
 * Source code of Mask R-CNN built on FPN and ResNet101.
