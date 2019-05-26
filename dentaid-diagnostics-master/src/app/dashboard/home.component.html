@@ -1,0 +1,65 @@
+<div class="dash">
+  <app-toolbar></app-toolbar>
+  <div class="container-fluid" style="margin: 0%;">
+    <div class="row">
+      <div class="col-md-9">
+        <div class="jumbotron" style="margin-top: 1em;">
+          <div class="row">
+            <form style="width: 100%" [formGroup]="searchForm">
+              <div class="md-form mt-0">
+                <input class="form-control" type="text" placeholder="Search OPG by MR Number" formControlName="search">
+                <button [disabled]="!searchForm.valid" (click)="search()" mdbBtn type="button" color="info" outline="true" mdbWavesEffect>
+                  <mdb-icon fas icon="search" class="mr-1"></mdb-icon>
+                </button> 
+              </div>
+            </form>
+          </div>
+          <div class="row">
+            <div class="col-sm-4">
+              <mdb-card bgColor="teal">
+                <mdb-card-body>
+                  <mdb-card-title>
+                    <a routerLink="/opgclient-uploads"><h4 style="color: white">OPG Client Uploads</h4></a>
+                  </mdb-card-title>
+                  <mdb-card-text>
+                    <h1 style="text-align: center; color: white">{{lastWeekOpg}}</h1>
+                  </mdb-card-text>
+                </mdb-card-body>
+              </mdb-card>
+            </div>
+            <div class="col-sm-4">
+              <mdb-card bgColor="teal">
+                <mdb-card-body>
+                  <mdb-card-title>
+                    <a routerLink="/personal-uploads"><h4 style="color: white">Personal Uploads</h4></a>
+                  </mdb-card-title>
+                  <mdb-card-text>
+                    <h1 style="text-align: center; color: white">{{personalUploads}}</h1>
+                  </mdb-card-text>
+                </mdb-card-body>
+              </mdb-card>
+            </div>
+            <div class="col-sm-4">
+              <mdb-card bgColor="teal">
+                <mdb-card-body>
+                  <mdb-card-title>
+                    <a href="#"><h4 style="color: white">Patients</h4></a>
+                  </mdb-card-title>
+                  <mdb-card-text>
+                    <h1 style="text-align: center; color: white">{{patients}}</h1>
+                  </mdb-card-text>
+                </mdb-card-body>
+              </mdb-card>
+            </div>
+          </div>
+        </div>
+        <div class="jumbotron">
+          <app-opgpanel></app-opgpanel>
+        </div>
+      </div>
+      <div class="col-md-3" style="text-align: center">
+       <img src="../../assets/images/dentaiddiag.png" width="200px;" style="margin-top: 3em;">
+      </div>
+    </div>
+  </div>
+</div>

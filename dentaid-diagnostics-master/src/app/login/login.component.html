@@ -1,0 +1,35 @@
+<div class="login">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6 animated fadeIn" style="text-align: center; padding-top: 10%;">
+        <img src="../../assets/images/dentaiddiag.png" alt="logo" height="400px">
+      </div>
+      <div class="col-sm-6 animated fadeInDown" style="text-align: center; margin-top: 10%;">
+        <div class="login-panel">
+          <div class="row" style="margin-top:2em;">
+            <div class="col-sm-2"></div>
+            <div class="col-sm-77">
+              <h2 style="color: white;">Welcome Back</h2>
+            </div>
+          </div>
+          <div class="row" style="margin-top: 2em;">
+            <div class="col-sm-1"></div>
+            <div class="col-sm-10">
+              <form [formGroup]="loginForm">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder="User Email" formControlName="userId">
+                </div>
+                <div class="form-group" style="margin-top: 2em;">
+                  <input type="password" class="form-control" placeholder="Password" formControlName="password">
+                </div>
+                <div class="form-group" style="margin-top: 4em;">
+                  <button [disabled]="!loginForm.valid" class="btn btn-danger" (click)="login()">Login</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
