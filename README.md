@@ -18,12 +18,12 @@ You may view our video here: [Project Video](https://www.youtube.com/watch?v=YK4
 
 [Dentaid-Diagnostics](https://github.com/fcsiba/DentAid/tree/master/dentaid-diagnostics-master)
 
-The client side version of the application is maintained here. Further info can be found here: [Dentaid-Diagnostics](https://github.com/fcsiba/DentAid/tree/master/dentaid-diagnostics-master)
+The client side version of the application is maintained here. Further info can be found on the following branch of this repository here: [Dentaid-Diagnostics](https://github.com/fcsiba/DentAid/tree/master/dentaid-diagnostics-master)
 
 
 ### Mask R-CNN for Teeth Segmentation and Classification
 
 [Mask R-CNN](https://github.com/fcsiba/DentAid/tree/master/Mask_RCNN)
 
-The classification model built using Mask R-CNN to help with instance teeth segmentation and classification is maintained here. Further info can be found here: [Mask R-CNN](https://github.com/fcsiba/DentAid/tree/master/Mask_RCNN)
+The classification model built using Mask R-CNN to help with instance teeth segmentation and classification is maintained here. Further info can be found on the following branch of this repository here: [Mask R-CNN](https://github.com/fcsiba/DentAid/tree/master/Mask_RCNN)
 
