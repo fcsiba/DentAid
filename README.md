@@ -80,27 +80,27 @@ This is an example of final detection boxes (dotted lines) and the refinement ap
 ## 3. Mask Generation
 Examples of generated masks. These then get scaled and placed on the image in the right location.
 
-![](https://ibb.co/Q9ZJwZL)
+![](https://i.ibb.co/cJPynP0/Screen-Shot-2019-05-27-at-1-03-40-AM.png)
 
 ## 4.Layer activations
 Often it's useful to inspect the activations at different layers to look for signs of trouble (all zeros or random noise).
 
-![](assets/detection_activations.png)
+![](https://github.com/fcsiba/DentAid/raw/master/Mask_RCNN/assets/detection_activations.png)
 
 ## 5. Weight Histograms
 Another useful debugging tool is to inspect the weight histograms. These are included in the inspect_weights.ipynb notebook.
 
-![](assets/detection_histograms.png)
+![](https://github.com/fcsiba/DentAid/raw/master/Mask_RCNN/assets/detection_histograms.png)
 
 ## 6. Logging to TensorBoard
 TensorBoard is another great debugging and visualization tool. The model is configured to log losses and save weights at the end of every epoch.
 
-![](assets/detection_tensorboard.png)
+![](https://github.com/fcsiba/DentAid/raw/master/Mask_RCNN/assets/detection_tensorboard.png)
 
 ## 6. Composing the different pieces into a final result
 
-![](https://ibb.co/3y30m8z)
-![](https://ibb.co/pjwMm2v)
+![](https://i.ibb.co/MDvRkj6/Screen-Shot-2019-05-24-at-11-39-01-AM.png)
+![](https://i.ibb.co/YBQ1r27/Screen-Shot-2019-05-27-at-1-04-13-AM.png)
 
 
 # Training on MS COCO
